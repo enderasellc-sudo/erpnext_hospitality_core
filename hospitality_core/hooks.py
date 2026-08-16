@@ -66,6 +66,7 @@ after_install = "hospitality_core.setup.after_install"
 
 # Scheduled Tasks
 # changed daily audit to run at 2 PM (14:00) per requirements
+# Frappe v16 scheduler events
 scheduler_events = {
     "cron": {
         "0 14 * * *": [
